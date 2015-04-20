@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833323DA1AE091A7008EBBDC /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 833323D91AE091A7008EBBDC /* star.png */; };
+		833323DC1AE188AA008EBBDC /* black hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 833323DB1AE188AA008EBBDC /* black hole.png */; };
+		835AFA6B1ADEF701009539C3 /* level0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835AFA6A1ADEF701009539C3 /* level0.txt */; };
+		835AFA6E1ADF00BD009539C3 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 835AFA6C1ADF00BD009539C3 /* player.png */; };
+		835AFA6F1ADF00BD009539C3 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 835AFA6D1ADF00BD009539C3 /* player@2x.png */; };
 		836E8ABC1AD8F47000B4B836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8ABB1AD8F47000B4B836 /* AppDelegate.swift */; };
 		836E8ABE1AD8F47000B4B836 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 836E8ABD1AD8F47000B4B836 /* GameScene.sks */; };
 		836E8AC01AD8F47000B4B836 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8ABF1AD8F47000B4B836 /* GameScene.swift */; };
@@ -15,6 +20,19 @@
 		836E8AC71AD8F47000B4B836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836E8AC61AD8F47000B4B836 /* Images.xcassets */; };
 		836E8ACA1AD8F47000B4B836 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836E8AC81AD8F47000B4B836 /* LaunchScreen.xib */; };
 		836E8AD61AD8F47000B4B836 /* SKRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8AD51AD8F47000B4B836 /* SKRollerTests.swift */; };
+		836E8AE01ADB8E7800B4B836 /* SwiftSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8ADF1ADB8E7800B4B836 /* SwiftSocket.swift */; };
+		836E8AE71ADB8E8C00B4B836 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8AE21ADB8E8C00B4B836 /* ysocket.swift */; };
+		836E8AE81ADB8E8C00B4B836 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 836E8AE31ADB8E8C00B4B836 /* ytcpsocket.c */; };
+		836E8AE91ADB8E8C00B4B836 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8AE41ADB8E8C00B4B836 /* ytcpsocket.swift */; };
+		836E8AEA1ADB8E8C00B4B836 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 836E8AE51ADB8E8C00B4B836 /* yudpsocket.c */; };
+		836E8AEB1ADB8E8C00B4B836 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E8AE61ADB8E8C00B4B836 /* yudpsocket.swift */; };
+		83CF82311ADDD3BD00B9DB2B /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF822A1ADDD3BD00B9DB2B /* Advertiser.swift */; };
+		83CF82321ADDD3BD00B9DB2B /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF822B1ADDD3BD00B9DB2B /* Browser.swift */; };
+		83CF82331ADDD3BD00B9DB2B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83CF822C1ADDD3BD00B9DB2B /* Info.plist */; };
+		83CF82341ADDD3BD00B9DB2B /* PeerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF822E1ADDD3BD00B9DB2B /* PeerKit.swift */; };
+		83CF82351ADDD3BD00B9DB2B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF822F1ADDD3BD00B9DB2B /* Session.swift */; };
+		83CF82361ADDD3BD00B9DB2B /* Transceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF82301ADDD3BD00B9DB2B /* Transceiver.swift */; };
+		83CF82381ADDD46300B9DB2B /* PeerConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF82371ADDD46300B9DB2B /* PeerConnectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +45,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		83B5F0C41ADDCE7700F1989F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		833323D91AE091A7008EBBDC /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = SKRoller/star.png; sourceTree = "<group>"; };
+		833323DB1AE188AA008EBBDC /* black hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black hole.png"; path = "SKRoller/black hole.png"; sourceTree = "<group>"; };
+		835AFA6A1ADEF701009539C3 /* level0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level0.txt; sourceTree = "<group>"; };
+		835AFA6C1ADF00BD009539C3 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = SKRoller/player.png; sourceTree = "<group>"; };
+		835AFA6D1ADF00BD009539C3 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "player@2x.png"; path = "SKRoller/player@2x.png"; sourceTree = "<group>"; };
 		836E8AB61AD8F47000B4B836 /* SKRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836E8ABA1AD8F47000B4B836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		836E8ABB1AD8F47000B4B836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +76,21 @@
 		836E8ACF1AD8F47000B4B836 /* SKRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836E8AD41AD8F47000B4B836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		836E8AD51AD8F47000B4B836 /* SKRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKRollerTests.swift; sourceTree = "<group>"; };
+		836E8ADF1ADB8E7800B4B836 /* SwiftSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSocket.swift; sourceTree = "<group>"; };
+		836E8AE11ADB8E8000B4B836 /* SocketConnection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketConnection-Bridging-Header.h"; sourceTree = "<group>"; };
+		836E8AE21ADB8E8C00B4B836 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		836E8AE31ADB8E8C00B4B836 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		836E8AE41ADB8E8C00B4B836 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		836E8AE51ADB8E8C00B4B836 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		836E8AE61ADB8E8C00B4B836 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		83CF822A1ADDD3BD00B9DB2B /* Advertiser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		83CF822B1ADDD3BD00B9DB2B /* Browser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		83CF822C1ADDD3BD00B9DB2B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CF822D1ADDD3BD00B9DB2B /* PeerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerKit.h; sourceTree = "<group>"; };
+		83CF822E1ADDD3BD00B9DB2B /* PeerKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerKit.swift; sourceTree = "<group>"; };
+		83CF822F1ADDD3BD00B9DB2B /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		83CF82301ADDD3BD00B9DB2B /* Transceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transceiver.swift; sourceTree = "<group>"; };
+		83CF82371ADDD46300B9DB2B /* PeerConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +111,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		835AFA701ADF130F009539C3 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				835AFA6A1ADEF701009539C3 /* level0.txt */,
+			);
+			name = Levels;
+			path = SKRoller;
+			sourceTree = "<group>";
+		};
+		835AFA711ADF132C009539C3 /* Socket Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				836E8ADF1ADB8E7800B4B836 /* SwiftSocket.swift */,
+				836E8AE11ADB8E8000B4B836 /* SocketConnection-Bridging-Header.h */,
+				836E8AE21ADB8E8C00B4B836 /* ysocket.swift */,
+				836E8AE31ADB8E8C00B4B836 /* ytcpsocket.c */,
+				836E8AE41ADB8E8C00B4B836 /* ytcpsocket.swift */,
+				836E8AE51ADB8E8C00B4B836 /* yudpsocket.c */,
+				836E8AE61ADB8E8C00B4B836 /* yudpsocket.swift */,
+			);
+			name = "Socket Stuff";
+			sourceTree = "<group>";
+		};
+		835AFA721ADF1367009539C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				835AFA6C1ADF00BD009539C3 /* player.png */,
+				833323DB1AE188AA008EBBDC /* black hole.png */,
+				833323D91AE091A7008EBBDC /* star.png */,
+				835AFA6D1ADF00BD009539C3 /* player@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		836E8AAD1AD8F47000B4B836 = {
 			isa = PBXGroup;
 			children = (
+				835AFA701ADF130F009539C3 /* Levels */,
+				835AFA721ADF1367009539C3 /* Images */,
+				835AFA711ADF132C009539C3 /* Socket Stuff */,
+				83CF82291ADDD39B00B9DB2B /* PeerKit */,
 				836E8AB81AD8F47000B4B836 /* SKRoller */,
 				836E8AD21AD8F47000B4B836 /* SKRollerTests */,
 				836E8AB71AD8F47000B4B836 /* Products */,
@@ -85,6 +174,7 @@
 				836E8ABD1AD8F47000B4B836 /* GameScene.sks */,
 				836E8ABF1AD8F47000B4B836 /* GameScene.swift */,
 				836E8AC11AD8F47000B4B836 /* GameViewController.swift */,
+				83CF82371ADDD46300B9DB2B /* PeerConnectionManager.swift */,
 				836E8AC31AD8F47000B4B836 /* Main.storyboard */,
 				836E8AC61AD8F47000B4B836 /* Images.xcassets */,
 				836E8AC81AD8F47000B4B836 /* LaunchScreen.xib */,
@@ -118,6 +208,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		83CF82291ADDD39B00B9DB2B /* PeerKit */ = {
+			isa = PBXGroup;
+			children = (
+				83CF822A1ADDD3BD00B9DB2B /* Advertiser.swift */,
+				83CF822B1ADDD3BD00B9DB2B /* Browser.swift */,
+				83CF822C1ADDD3BD00B9DB2B /* Info.plist */,
+				83CF822D1ADDD3BD00B9DB2B /* PeerKit.h */,
+				83CF822E1ADDD3BD00B9DB2B /* PeerKit.swift */,
+				83CF822F1ADDD3BD00B9DB2B /* Session.swift */,
+				83CF82301ADDD3BD00B9DB2B /* Transceiver.swift */,
+			);
+			name = PeerKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,6 +232,7 @@
 				836E8AB21AD8F47000B4B836 /* Sources */,
 				836E8AB31AD8F47000B4B836 /* Frameworks */,
 				836E8AB41AD8F47000B4B836 /* Resources */,
+				83B5F0C41ADDCE7700F1989F /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +272,7 @@
 				TargetAttributes = {
 					836E8AB51AD8F47000B4B836 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = ZNAK33UCX7;
 					};
 					836E8ACE1AD8F47000B4B836 = {
 						CreatedOnToolsVersion = 6.3;
@@ -198,10 +304,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835AFA6E1ADF00BD009539C3 /* player.png in Resources */,
 				836E8ACA1AD8F47000B4B836 /* LaunchScreen.xib in Resources */,
+				833323DA1AE091A7008EBBDC /* star.png in Resources */,
 				836E8AC71AD8F47000B4B836 /* Images.xcassets in Resources */,
+				833323DC1AE188AA008EBBDC /* black hole.png in Resources */,
 				836E8ABE1AD8F47000B4B836 /* GameScene.sks in Resources */,
+				83CF82331ADDD3BD00B9DB2B /* Info.plist in Resources */,
+				835AFA6B1ADEF701009539C3 /* level0.txt in Resources */,
 				836E8AC51AD8F47000B4B836 /* Main.storyboard in Resources */,
+				835AFA6F1ADF00BD009539C3 /* player@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +331,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CF82361ADDD3BD00B9DB2B /* Transceiver.swift in Sources */,
+				83CF82311ADDD3BD00B9DB2B /* Advertiser.swift in Sources */,
+				836E8AEA1ADB8E8C00B4B836 /* yudpsocket.c in Sources */,
 				836E8AC01AD8F47000B4B836 /* GameScene.swift in Sources */,
+				83CF82381ADDD46300B9DB2B /* PeerConnectionManager.swift in Sources */,
 				836E8AC21AD8F47000B4B836 /* GameViewController.swift in Sources */,
+				83CF82341ADDD3BD00B9DB2B /* PeerKit.swift in Sources */,
+				836E8AE01ADB8E7800B4B836 /* SwiftSocket.swift in Sources */,
+				836E8AE71ADB8E8C00B4B836 /* ysocket.swift in Sources */,
+				83CF82351ADDD3BD00B9DB2B /* Session.swift in Sources */,
+				836E8AE81ADB8E8C00B4B836 /* ytcpsocket.c in Sources */,
+				836E8AEB1ADB8E8C00B4B836 /* yudpsocket.swift in Sources */,
+				83CF82321ADDD3BD00B9DB2B /* Browser.swift in Sources */,
+				836E8AE91ADB8E8C00B4B836 /* ytcpsocket.swift in Sources */,
 				836E8ABC1AD8F47000B4B836 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +428,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -340,6 +465,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -348,9 +474,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PeerKit/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SKRoller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,9 +494,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PeerKit/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SKRoller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -417,6 +562,7 @@
 				836E8ADB1AD8F47000B4B836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836E8ADC1AD8F47000B4B836 /* Build configuration list for PBXNativeTarget "SKRollerTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +571,7 @@
 				836E8ADE1AD8F47000B4B836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
